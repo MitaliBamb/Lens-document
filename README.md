@@ -28,3 +28,5 @@ I developed this project, an AI-native document analyzer designed to bridge the 
 - **Parsing:** The Python backend uses PyPDF2 to read the binary content and convert it into a searchable string buffer.
 - **Querying:** When a user asks a question (e.g., "What is the conclusion?"), the backend splits the document into semantic paragraphs.
 - **Contextual Retrieval:** The system performs a case-insensitive search and returns the specific paragraph containing the answer,rather than just a confirmation message.
+
+*Note-* If erroe is coming because you dont have an proper react file use this comand:- npm install vite @vitejs/plugin-react react react-dom axios. then delete all the extra double file which is installed after this prompt.
